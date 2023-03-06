@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: rgb(22, 22, 29);
+}
+
+.contact-container {
+  background-color: rgb(22, 22, 29);
+  height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-left {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-right {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-left-text {
+  color: rgb(49, 49, 61);
+  font-size: 15rem;
+}
+
+.contact-right > .avatar {
+  background-image: url(../../assets/avatar.png);
+  background-size: cover;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+}
+
+.contact-right > .description {
+  width: 30rem;
+  height: 20rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.contact-right > .description > p {
+  margin-top: 1rem;
+}

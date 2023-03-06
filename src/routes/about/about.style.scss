@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: rgb(22, 22, 29);
+}
+
+.hero-container {
+  background-image: url(../../assets/hero.jpg);
+  height: 92vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 50%;
+  padding-left: 18rem;
+}
+
+.heading > .heading-main {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.tool {
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15rem;
+}
+
+.tool-item {
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+.tool-item > p {
+  margin-bottom: 1rem;
+}
+
+.name {
+  color: #55c57a;
+}
+
+.tool-logo {
+  margin: 1rem 1rem 1rem 0;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  width: 20rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  border: 0.2rem solid #55c57a;
+  border-radius: 5px;
+  margin-top: 1rem;
+  padding: 1.5rem 0;
+}
+
+.btn-white {
+  color: #fff;
+}

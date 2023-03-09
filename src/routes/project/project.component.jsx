@@ -1,5 +1,7 @@
 import "./project.style.scss";
 
+import ProjctItem from "./components/project-item.component";
+
 const projects = [
   {
     id: 1,
@@ -16,14 +18,7 @@ const Project = () => {
     <>
       <div className="projects-container">
         {projects.map((project) => (
-          <div className="project-container">
-            <div
-              className="background-image"
-              style={{
-                backgroundImage: `url(${project.imageUrl})`,
-              }}
-            />
-          </div>
+          <ProjctItem {...project} />
         ))}
       </div>
     </>

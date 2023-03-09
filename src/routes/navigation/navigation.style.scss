@@ -8,8 +8,14 @@
 
   .logo-container {
     height: 100%;
-    width: 70px;
+    width: 10rem;
     padding: 25px;
+    display: flex;
+
+    .logo-symbol {
+      color: #55c57a;
+      font-weight: 600;
+    }
   }
 
   .nav-links-container {

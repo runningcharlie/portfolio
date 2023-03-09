@@ -10,21 +10,21 @@ import { ReactComponent as SassLogo } from "../../assets/sass.svg";
 const About = () => {
   return (
     <>
-      <div class="hero-container">
-        <div class="heading">
-          <span class="heading-main">Hi,</span>
-          <span class="heading-main">
+      <div className="hero-container">
+        <div className="heading">
+          <span className="heading-main">Hi,</span>
+          <span className="heading-main">
             My name is
-            <span class="name"> Charlie,</span>
+            <span className="name"> Charlie,</span>
           </span>
-          <span class="heading-main">I'm a front-end developer</span>
-          <Link class="btn btn-white" to="/contact">
+          <span className="heading-main">I'm a front-end developer</span>
+          <Link className="btn btn-white" to="/contact">
             Let's get in touch!
           </Link>
         </div>
-        <div class="tool">
-          <div class="tool-title">Tools I Work With</div>
-          <div class="tool-item">
+        <div className="tool">
+          <div className="tool-title">Tools I Work With</div>
+          <div className="tool-item">
             <HTMLLogo className="tool-logo" />
             <CSSLogo className="tool-logo" />
             <JavaScriptLogo className="tool-logo" />
@@ -34,6 +34,7 @@ const About = () => {
             </div>
           </div>
         </div>
+        <div></div>
       </div>
     </>
   );

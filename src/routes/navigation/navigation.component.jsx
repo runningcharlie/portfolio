@@ -1,4 +1,6 @@
 import { Link, Outlet } from "react-router-dom";
+import Flicking from "@egjs/react-flicking";
+import "@egjs/react-flicking/dist/flicking.css";
 
 import "./navigation.style.scss";
 
@@ -7,7 +9,9 @@ const Navigation = () => {
     <>
       <div className="navigation">
         <Link className="logo-container" to="/">
-          website logo
+          <div className="logo-symbol">{"{"}&nbsp;</div>
+          <div> starry </div>
+          <div className="logo-symbol">&nbsp;{"}"}</div>
         </Link>
         <div className="nav-links-container">
           <Link className="nav-link" to="/">
@@ -21,7 +25,6 @@ const Navigation = () => {
           </Link>
         </div>
       </div>
-
       <Outlet />
     </>
   );

@@ -11,6 +11,11 @@ const About = () => {
   return (
     <>
       <div className="hero-container">
+        <span className="github-button">
+          <a href="https://github.com/runningcharlie/portfolio">
+            View this website on github
+          </a>
+        </span>
         <div className="heading">
           <span className="heading-main">Hi,</span>
           <span className="heading-main">

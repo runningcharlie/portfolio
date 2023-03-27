@@ -11,7 +11,7 @@ const Contact = () => {
         <div className="contact-right">
           <span className="avatar"></span>
           <div className="description">
-            <p>Email: ljwcharlie@gmail,com</p>
+            <p>Email: ljwcharlie@gmail.com</p>
             <p>Phone number/WeChat: 15875646569</p>
           </div>
         </div>

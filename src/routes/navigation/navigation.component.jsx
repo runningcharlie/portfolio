@@ -1,6 +1,4 @@
 import { Link, Outlet } from "react-router-dom";
-import Flicking from "@egjs/react-flicking";
-import "@egjs/react-flicking/dist/flicking.css";
 
 import "./navigation.style.scss";
 
